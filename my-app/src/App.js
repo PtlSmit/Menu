@@ -13,7 +13,7 @@ const App = () => {
         <div className='underline'></div>
       </div>
       <Categories/>
-      <Menu/>
+      <Menu items={menuItems}/>
     </section>
    </main>
   )
